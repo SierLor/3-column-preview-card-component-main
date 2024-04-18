@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+
+font-family: "Lexend Deca", sans-serif
+
+:root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark cyan: hsl(179, 100%, 13%);
+--parrafos:  hsla(0, 0%, 100%, 0.75);
+--botones: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-size: 15px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 500px;
+    height: 921px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.tajeta{
+    width: 307px;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
