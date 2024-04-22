@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
 
 
-
-
-
-:root{
---Bright-orange: hsl(31, 77%, 52%);
---Dark-cyan: hsl(184, 100%, 22%);
---Very-dark-cyan: hsl(179, 100%, 13%);
---parrafos:  hsla(0, 0%, 100%, 0.75);
---botones: hsl(0, 0%, 95%);
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -109,3 +98,28 @@
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
 }
+
+
+@media (max-width:805px){
+    .main{
+        display: grid;
+        grid-template-columns: auto;
+        width: 325px;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 10px;
+        
+        
+    }
+
+    .tarjeta{
+        width: 325px;
+        
+    }
+
+    .attribution{
+        margin-top: 100px;
+    }
+}
+    
+
